@@ -1,0 +1,20 @@
+body { margin:0;}
+
+header{}
+header div:first-child{padding: 4%; background-color:blue; width:35%; float:left;}
+header div:nth-child(2){padding: 4%; background:4%; background:green; width:35%;
+float:left;}
+.clear{clear:both;}
+
+nav{background:red;width:86%;}
+nav ul{margin: 5px; padding:0;}
+nav ul li{list-style: none; float:left; margin:0.5%; padding:1%; background: yellow; }
+nav ul li a{text-decoration: none; display:block; width:100%;}
+nav ul li:hover{background:lightgr een;}
+
+section{}
+section div:first-child{padding:4%; background:blue; width:23%; float:left;}
+section div:nth-child(2){padding:4%; background:green; width:47%; float:left;}
+
+section{}
+footer{padding:4%; background:yellow; margin-top:0.5%; width:78%;}
