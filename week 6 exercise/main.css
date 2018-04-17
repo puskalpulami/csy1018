@@ -1,0 +1,35 @@
+body{
+ margin: 0; padding: 0; font-size: 20px; 
+}
+header, footer{
+  background-color: #9C7500; padding: 1% 2%; color: white;text-align: center;
+} 
+ section { display: flex;flex-direction: row; justify-content: space-around; padding: 1%;
+ background-color: #F8BE03 ;
+  }
+
+
+  .block {  flex-direction: row;
+  	width: 32%; background-color: white; 
+  	box-shadow: 5px 5px 15px pink; border-radius: 20px 20px 0 0; }
+
+.block img {
+ width: 33%; border-radius: 20px 20px 0 0; 
+
+}
+h2 {
+	background-color: yellow;
+
+}
+.block div{ padding: 3%; }
+
+.block h4{ padding: 3%; }
+
+.block p{ 
+	font-size: 22px; margin: 2% 0; padding: 0;
+	 }
+.block a{ 
+	text-decoration: none;  color: red; padding: 0.5% 1%;
+	background-color: #9C7500; 
+}
+
