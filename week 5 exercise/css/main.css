@@ -1,0 +1,39 @@
+body{
+	margin:0 padding :0; font-size:20px;
+}
+header, footer {
+	text-align:center; background:lightblue;
+	padding:3%; 
+}
+nav{background-color: green;}
+nav ul {
+	margin: 0; display: flex; 
+	justify-content: space-around;
+}
+nav ul li{
+	list-style: none; margin: 0.5%; padding: 1%;
+}
+nav ul li a {
+	text-decoration: none; color: red; 
+}
+section{
+	display: flex;
+}
+.main{
+	background: #16A2C5; width: 71%; text-align: center; 
+	padding: 2%;
+}
+.sidebar{
+	background:#5275AD; width: 21%; text-align: center;
+	padding: 2%;
+}
+@media screen and (max-width: 600px){
+	nav ul{ flex-direction: column; 
+ 		}
+ 		nav ul li{ width: 96% margin:1%;
+ 		padding: 1%; }
+ 		section{ flex-direction: column; }
+ 		.main{ width: 96%; order: 2;}
+ 		.sidebar{ width: 96%; order: 1;}
+
+	}
